@@ -24,7 +24,7 @@ def calculate():
     elif(24.9>=bmi>=18.5):
         messagebox.showinfo('BMI Result', f'BMI = {bmi} is Normal')
 
-    elif(24.9>bmi):
+    elif(24.9<bmi):
         messagebox.showinfo('BMI Result', f'BMI = {bmi} is Overweight')
 
 weight_label = customtkinter.CTkLabel(master = app ,text="Weight (kg) : ",pady=20,padx=20)
